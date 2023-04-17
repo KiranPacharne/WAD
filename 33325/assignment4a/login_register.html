@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-
+1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<title>Demo of jQuery Mobile</title>
+</head>
+<body>
+    <form>
+<div data-role="page" style="background-color:aliceblue;">
+<div data-role="header" data-theme="b">
+<h1>My Website</h1>
+</div>
+<div data-role="navbar">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about_us.html">About</a></li>
+<li><a href="login_register.html">Register for Newsletter</a></li>
+</ul>
+</div>
+<div class="content" style="width:50%; margin: 5% auto;">
+<center><h3>Register</h3></center>
+<div data-role="content">
+<label for="userName">Username</label>
+<input type="text" name="userName" required>
+<label for="email">Email</label>
+<input type="email" name="email" required>
+<label for="password">Password</label>
+<input type="password" name="password" required>
+
+
+<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" required>
+    <legend>Gender</legend>
+    <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6a" value="on" checked="checked">
+    <label for="radio-choice-h-6a" >Male</label>
+    <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6b" value="off">
+    <label for="radio-choice-h-6b">Female</label>
+    <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6c" value="other">
+    <label for="radio-choice-h-6c">Non-Binary</label>
+</fieldset>
+
+    <label for="Age">Age</label>
+    <input type="range" name="Age" id="Age" data-highlight="true" min="0" max="100" value="00" required>
+
+<center><button type="submit">Submit</button></center>
+</div>
+</div>
+</div>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
